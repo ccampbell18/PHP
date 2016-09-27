@@ -5,4 +5,13 @@ $name = $_GET['name'];
 $username = $_GET['username'];
 $password = $_GET['password'];
 
+$query = "insert into users (name, username, password) values('$name', '$username', '$password')";
+$result = mysql_query($query, $connection);
+if (!$result){
+    echo "sorry";
+    echo mysql_error();
+}
+else{
+    echo "Your form has been submitted successfully!";
+}
 ?>
