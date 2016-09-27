@@ -1,0 +1,32 @@
+<?php
+echo " Enter Your Login Information: ";
+echo " <form action = 'quiz2.php' method = 'get'>";
+echo " Enter your first name <input type = 'text' name = 'fName'><br />";
+echo " Enter your last name <input type = 'text' name = 'lName'><br />";
+echo " Enter your email <input type = 'text' name = 'email'><br />";
+echo " Enter your password <input type = 'password' name = 'pWord'><br />";
+echo "<br />";
+echo " Enter Your Gender: <br /> ";
+echo " Male <input type = 'radio' name = 'gender' value = 'Male'>";
+echo " Female <input type = 'radio' name = 'gender' value = 'Female'><br />";
+echo "<br />";
+echo " Enter Which Lunch You Desire: <br />";
+echo " <input type = 'checkbox' name = 'food[]' value = 'hamburger' checked>Hamburger&nbsp";
+echo " <input type = 'checkbox' name = 'food[]' value = 'hotDog'>Hot Dog&nbsp";
+echo " <input type = 'checkbox' name = 'food[]' value = 'psghetti'>Psghetti&nbsp";
+echo " <input type = 'checkbox' name = 'food[]' value = 'salad'>Salad&nbsp";
+echo " <input type = 'checkbox' name = 'food[]' value = 'toastedCheese'>Toasted Cheese Sandwich&nbsp<br />";
+echo " <br />";
+Echo " Enter Your Payment Method: <br />";
+echo " <select name = 'payment'>";
+echo " <option 'cash'>Cash</option>";
+echo " <option 'check'>Check</option>";
+echo " <option 'visa'>Visa</option>";
+echo " <option 'aExpress'>American Express</option>";
+echo " <option 'masCard'>Mastercard</option>";
+echo " <option 'discover'>Discover</option>";
+echo " </select><br />";
+echo " <br />";
+echo " <input type = 'submit' name = 'button' >";
+echo " </form>";
+?>

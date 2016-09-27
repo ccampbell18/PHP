@@ -1,0 +1,21 @@
+#!/bin/bash
+echo -n "Please enter a numeric grade between 1 through 100."
+read GRADE
+if [ $GRADE -le 64 ]
+then
+echo "F"
+elif [ $GRADE -gt 64 -a $GRADE -lt 72 ]
+then
+echo "D"
+elif [ $GRADE -gt 71 -a $GRADE -lt 82 ]
+then
+echo "C"
+elif [ $GRADE -gt 81 -a $GRADE -lt 91 ]
+then
+echo "B"
+elif [ $GRADE -gt 90 -a $GRADE -lt 101 ]
+then
+echo "A"
+else
+echo "Invalid"
+fi

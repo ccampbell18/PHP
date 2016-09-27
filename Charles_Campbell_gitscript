@@ -1,0 +1,272 @@
+Script started on Tue 20 Sep 2016 11:19:17 AM EDT
+]0;ccampbell18@sabre:~[?1034h[ccampbell18@sabre ~]$ git config --list
+user.name=ccampbell18
+user.email=charles.campbell.12331@gmail.com
+core.editor=vim
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	gitscript
+#	public_html/
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ vi filea
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1H"filea" 2L, 29C[>c[1;1H[33m  1 [mhelp me
+[33m  2 [mwhy do you need help
+[1m[34m~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [m[30;100H1,1[11CAll[1;5H[?12l[?25h[?25lwhy do you need help
+[1m[34m~                                                                                                                    [1;5H[?12l[?25h[?25l[m[1;5H[K[30;1H--No lines in buffer--[30;100H[K[30;100H0,0-1[9CAll[1;5H[?12l[?25h[?25l[?12l[?25h[?25l[30;1H[1m-- INSERT --[m[30;13H[K[30;100H0,1[11CAll[1;5H[?12l[?25h[?25lT[30;100H1,2[1;6H[?12l[?25h[?25lh[30;102H3[1;7H[?12l[?25h[?25li[30;102H4[1;8H[?12l[?25h[?25ls[30;102H5[1;9H[?12l[?25h[?25l[30;102H6[1;10H[?12l[?25h[?25li[30;102H7[1;11H[?12l[?25h[?25ls[30;102H8[1;12H[?12l[?25h[?25l[30;102H9[1;13H[?12l[?25h[?25la[30;102H10[1;14H[?12l[?25h[?25l[30;103H1[1;15H[?12l[?25h[?25ll[30;103H2[1;16H[?12l[?25h[?25li[30;103H3[1;17H[?12l[?25h[?25ln[30;103H4[1;18H[?12l[?25h[?25le[30;103H5[1;19H[?12l[?25h[?25l[30;103H6[1;20H[?12l[?25h[?25l[30;103H5[1;19H[?12l[?25h[30;1H[K[1;18H[?25l[30;100H1,14[10CAll[1;18H[?12l[?25h[?25l[30;100H[K[30;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[30;2H[K[30;2H[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"filea" 1L, 15C written
+[?1l>[?12l[?25h[?1049l]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   filea
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	gitscript
+#	public_html/
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git add filea
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ ls[K[Kgit status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   filea
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	gitscript
+#	public_html/
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git add filea
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git log
+[?1h=commit 911bd80d46941f7f16ddf4fe0ae494e1ee76aa62[m
+Author: ccampbell18 <charles.campbell.12331@gmail.com>[m
+Date:   Fri Sep 16 11:29:24 2016 -0400[m
+[m
+    version 1.1[m
+[m
+commit 7f9328b44f4d285e3fdccb01e260ba7564195b3b[m
+Author: ccampbell18 <charles.campbell.12331@gmail.com>[m
+Date:   Fri Sep 16 11:23:57 2016 -0400[m
+[m
+    verison 1[m
+[K[?1l>]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   filea
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	gitscript
+#	public_html/
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git commit -m 'version 2'
+[master a065959] version 2
+ 1 files changed, 1 insertions(+), 2 deletions(-)
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	gitscript
+#	public_html/
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git log
+[?1h=commit a0659599366f2076a89638391e632929ab0cbef3[m
+Author: ccampbell18 <charles.campbell.12331@gmail.com>[m
+Date:   Tue Sep 20 11:21:17 2016 -0400[m
+[m
+    version 2[m
+[m
+commit 911bd80d46941f7f16ddf4fe0ae494e1ee76aa62[m
+Author: ccampbell18 <charles.campbell.12331@gmail.com>[m
+Date:   Fri Sep 16 11:29:24 2016 -0400[m
+[m
+    version 1.1[m
+[m
+commit 7f9328b44f4d285e3fdccb01e260ba7564195b3b[m
+Author: ccampbell18 <charles.campbell.12331@gmail.com>[m
+Date:   Fri Sep 16 11:23:57 2016 -0400[m
+[m
+    verison 1[m
+[K[?1l>]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ vi filec
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1H"filec" [New File][>c[1;1H[33m  1 [m
+[1m[34m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [m[30;100H0,0-1[9CAll[1;5H[?12l[?25h[?25l[30;1H[1m-- INSERT --[m[30;14H[K[30;100H0,1[11CAll[1;5H[?12l[?25h[?25ls[30;100H1,2[1;6H[?12l[?25h[?25l[30;102H3[1;7H[?12l[?25h[?25l[30;102H2[1;6H[?12l[?25h[?25l[1;5H[K[30;102H1[1;5H[?12l[?25h[?25lT[30;102H2[1;6H[?12l[?25h[?25lh[30;102H3[1;7H[?12l[?25h[?25li[30;102H4[1;8H[?12l[?25h[?25ls[30;102H5[1;9H[?12l[?25h[?25l[30;102H6[1;10H[?12l[?25h[?25li[30;102H7[1;11H[?12l[?25h[?25ls[30;102H8[1;12H[?12l[?25h[?25l[30;102H9[1;13H[?12l[?25h[?25la[30;102H10[1;14H[?12l[?25h[?25l[30;103H1[1;15H[?12l[?25h[?25lf[30;103H2[1;16H[?12l[?25h[?25li[30;103H3[1;17H[?12l[?25h[?25ll[30;103H4[1;18H[?12l[?25h[?25le[30;103H5[1;19H[?12l[?25h[?25l[30;103H6[1;20H[?12l[?25h[?25l[30;103H5[1;19H[?12l[?25h[?25l[1;18H[K[30;103H4[1;18H[?12l[?25h[?25l[1;17H[K[30;103H3[1;17H[?12l[?25h[?25l[1;16H[K[30;103H2[1;16H[?12l[?25h[?25l[1;15H[K[30;103H1[1;15H[?12l[?25h[?25ln[30;103H2[1;16H[?12l[?25h[?25le[30;103H3[1;17H[?12l[?25h[?25lw[30;103H4[1;18H[?12l[?25h[?25l[30;103H5[1;19H[?12l[?25h[?25lf[30;103H6[1;20H[?12l[?25h[?25li[30;103H7[1;21H[?12l[?25h[?25ll[30;103H8[1;22H[?12l[?25h[?25le[30;103H9[1;23H[?12l[?25h[30;1H[K[1;22H[?25l[30;100H1,18[10CAll[1;22H[?12l[?25h[?25l[30;100H[K[30;1H:[?12l[?25hW[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[30;3H[K[30;3H[?12l[?25hQ[?25l[?12l[?25h[?25l[1m[37m[41mE492: Not an editor command: WQ[m[68C1,18[10CAll[1;22H[?12l[?25h[?25l[30;1H[K[30;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"filec" [New] 1L, 19C written
+[?1l>[?12l[?25h[?1049l]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status --[Ks
+?? .Xauthority
+?? .bash_history
+?? .bash_logout
+?? .bash_profile
+?? .bashrc
+?? .exrc
+?? .gitconfig
+?? .viminfo
+?? bin/
+?? filec
+?? gitscript
+?? public_html/
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	filec
+#	gitscript
+#	public_html/
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ add filec
+bash: add: command not found
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git add filec
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git -s[K[Kstatus -s [K
+A  filec
+?? .Xauthority
+?? .bash_history
+?? .bash_logout
+?? .bash_profile
+?? .bashrc
+?? .exrc
+?? .gitconfig
+?? .viminfo
+?? bin/
+?? gitscript
+?? public_html/
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git reset HEAD filec
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ ls
+[0m[01;34mbin[0m  filea  filec  gitscript  [01;34mpublic_html[0m
+[m]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git[K[K[Kgit checkout -- filea
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ vi FILE[K[K[K[Kfilea
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1H"filea" 1L, 15C[>c[1;1H[33m  1 [mThis is a line
+[1m[34m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [m[30;100H1,1[11CAll[1;5H[?12l[?25h[?25l[30;102H2[1;6H[?12l[?25h[?25l[30;102H3[1;7H[?12l[?25h[?25l[30;102H4[1;8H[?12l[?25h[?25l[30;102H5[1;9H[?12l[?25h[?25l[30;102H6[1;10H[?12l[?25h[?25l[30;102H7[1;11H[?12l[?25h[?25l[30;102H8[1;12H[?12l[?25h[?25l[30;102H9[1;13H[?12l[?25h[?25l[30;102H10[1;14H[?12l[?25h[?25l[30;103H1[1;15H[?12l[?25h[?25l[30;103H2[1;16H[?12l[?25h[?25l[30;103H3[1;17H[?12l[?25h[?25l[30;103H4[1;18H[?12l[?25h[?25l[30;1H[1m-- INSERT --[m[30;13H[K[30;100H1,14[10CAll[1;18H[?12l[?25h[30;1H[K[1;17H[?25l[30;1H[1m-- INSERT --[m[87C1,14[10CAll[30;103H5[1;19H[?12l[?25h[?25l
+[33m  2 [m[2;5H[K[30;100H2,1 [2;5H[?12l[?25h[?25l
+[33m  3 [m[3;5H[K[30;100H3[3;5H[?12l[?25h[?25lT[30;102H2[3;6H[?12l[?25h[?25lh[30;102H3[3;7H[?12l[?25h[?25li[30;102H4[3;8H[?12l[?25h[?25ls[30;102H5[3;9H[?12l[?25h[?25l[30;102H6[3;10H[?12l[?25h[?25li[30;102H7[3;11H[?12l[?25h[?25ls[30;102H8[3;12H[?12l[?25h[?25l[30;102H9[3;13H[?12l[?25h[?25la[30;102H10[3;14H[?12l[?25h[?25ln[30;103H1[3;15H[?12l[?25h[?25lo[30;103H2[3;16H[?12l[?25h[?25lt[30;103H3[3;17H[?12l[?25h[?25lh[30;103H4[3;18H[?12l[?25h[?25le[30;103H5[3;19H[?12l[?25h[?25lr[30;103H6[3;20H[?12l[?25h[?25l[30;103H7[3;21H[?12l[?25h[?25ll[30;103H8[3;22H[?12l[?25h[?25li[30;103H9[3;23H[?12l[?25h[?25ln[30;102H20[3;24H[?12l[?25h[?25le[30;103H1[3;25H[?12l[?25h[30;1H[K[3;24H[?25l[30;100H3,20[10CAll[3;24H[?12l[?25h[?25l[30;100H[K[30;1H:[?12l[?25hw[?25l[?12l[?25h[?25l[30;2H[K[30;2H[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"filea" 3L, 37C written
+[?1l>[?12l[?25h[?1049l]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ giat [K[K[Kt diff
+[?1h=diff --git a/filea b/filea[m
+index 1850bcd..ff59261 100644[m
+--- a/filea[m
++++ b/filea[m
+@@ -1 +1,3 @@[m
+ This is a line[m
++[m
++This is another line[m
+[K[?1l>]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git add[K[K[Kcommit file[K[K[K[K-ma[K "version 2.2[K1"[K[K[K[K[K[K[K[K[K[K[K[K[K;[K'version 2.1'
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   filea
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	filec
+#	gitscript
+#	public_html/
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git add filea
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git commit -m 'f[Kvesio[K[K[Krsion 2.2[K1'
+[master 53feeec] version 2.1
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ rm filea
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    filea
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xauthority
+#	.bash_history
+#	.bash_logout
+#	.bash_profile
+#	.bashrc
+#	.exrc
+#	.gitconfig
+#	.viminfo
+#	bin/
+#	filec
+#	gitscript
+#	public_html/
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ccampbell18@sabre:~[ccampbell18@sabre ~]$ exit
+
+Script done on Tue 20 Sep 2016 11:28:29 AM EDT

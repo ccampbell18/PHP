@@ -1,0 +1,21 @@
+#!/bin/bash
+echo -n "Enter the absolute path of a file: "
+read file
+if [ -x $file -a -r $file -a -w $file ]
+then
+echo "The file has all the permissions."
+elif [ -w $file -a -r $file ]
+then
+echo "The file is read and write only."
+elif [ -r $file ]
+then
+echo "The file is read only."
+elif [ -w $file ]
+then
+echo "The file is write only."
+elif [ -x $file ]
+then
+echo "The file is executable only."
+else
+echo "that is not a readable file."
+fi

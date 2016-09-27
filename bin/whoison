@@ -1,0 +1,10 @@
+#!/bin/bash
+echo -e "Please enter your name."
+read USER
+echo -e " "
+echo -e " Hello $USER."
+echo -e " "
+date
+echo -e " "
+w
+

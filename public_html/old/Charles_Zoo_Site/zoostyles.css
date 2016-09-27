@@ -1,0 +1,22 @@
+@charset "utf-8";
+h1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: xx-large;
+	font-weight: bolder;
+	color: #F0F;
+}
+h2 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: large;
+	font-weight: bold;
+	color: #F0F;
+}
+p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: medium;
+	color: #F9C;
+}
+
+body {
+	background-color: #F6C
+}

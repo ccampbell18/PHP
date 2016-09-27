@@ -1,0 +1,14 @@
+#!/bin/bash
+echo -n "Please enter a number between 1-10."
+read n
+if [ $n -le 10 ]
+then 
+while [ $n -le 20 ]
+do
+echo "my value is $n."
+((++n))
+done
+else [ $n -gt 10 ]
+echo "That number is not correct."
+fi
+
