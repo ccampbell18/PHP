@@ -5,6 +5,8 @@ $name = $_GET['name'];
 $username = $_GET['username'];
 $password = $_GET['password'];
 
+
+/*
 $query = "insert into users (name, username, password) values('$name', '$username', '$password')";
 $result = mysql_query($query, $connection);
 if (!$result){
@@ -14,5 +16,8 @@ if (!$result){
 else{
     echo mysql_affected_rows($connection);
     echo "Your form has been submitted successfully!<br />";
-}
+}*/
+
+$query = "select * from users";
+$result = @mysql_query($query,$connection);
 ?>
