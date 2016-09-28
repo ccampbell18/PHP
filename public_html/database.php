@@ -12,6 +12,7 @@ if (!$result){
     echo mysql_error();
 }
 else{
-    echo "Your form has been submitted successfully!";
+    echo mysql_affected_rows($connection);
+    echo "Your form has been submitted successfully!<br />";
 }
 ?>
