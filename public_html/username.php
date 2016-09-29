@@ -12,7 +12,7 @@ echo "Click below to login <br />";
 echo "<form name = 'form' action = 'database2.php' method = 'get'>";
 echo "Username <input type = 'text' name = 'username'><br />";
 echo "Password <input type = 'text' name = 'password'><br />";
-echo "<input type = 'submit' value 'Click to Login'>";
+echo "<input type = 'submit' value = 'Click to Login'>";
 echo "</form>";
 
 ?>
