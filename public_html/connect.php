@@ -13,5 +13,5 @@ if(@mysql_select_db($dbName, $connection)=== FALSE){
 	mysql_close($connection);
 }
 else{
-	echo"<br />Connection to database is Good.";
+	echo"<br />Connection to database is Good.<br />";
 }
