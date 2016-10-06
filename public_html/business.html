@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business for Fun</title>
+    <link rel="stylesheet" href="business.css" type="text/css" />
+    <script src="jquery.js"></script>
+    <script src="business.js"></script>
+
+</head>
+<body>
+<div style ='font:22px Arial,Tahoma,sans-serif;color:#000000' id = 'register'><strong>Click Below to Register</strong></div><br />
+<form name = 'form1' action = 'customer.php' method = 'get'>
+<h3>First Name</h3><br /><input type = 'text' name = 'fName'><br />
+<h3>Last Name</h3><br /><input type = 'text' name = 'lName'><br />
+<h3>Cell Number</h3><br /><input type = 'text' name = 'cellNum'> Ex: 5555555555<br />
+<h3>Zip Code</h3><br /><input type = 'text' name = 'zip'> Ex: 55555<br />
+<h3>Password</h3><br /><input type = 'password' name = 'password'> *Must be at least 6 characters long*<br />
+<br /><input type = 'submit' value = 'Click to Register'>
+</form>
+<hr>
+<div style ='font:22px Arial,Tahoma,sans-serif;color:#000000' id = 'login'><strong>Click Below to Login</strong></div><br />
+<form name = 'form2' action = 'login.php' method = 'get'>
+<h3>Cell Number</h3><br /><input type = 'text' name = 'cellNum'><br />
+<h3>Password</h3><br /><input type = 'password' name = 'password'><br />
+<br /><input type = 'submit' value = 'Click to Login'>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    font: 75% Verdana, Helvetica, Arial, sans-serif;
+    color: #000;
+    background: #cce6ff;
+    padding: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hover {
+    cursor: pointer;
+    background-color: #6a9ced;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    padding: 0;
+}
+
